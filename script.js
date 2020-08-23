@@ -1,8 +1,8 @@
 // set up text to print, each item in array is new line
 var aText = new Array(
-    "21 year old <span class='pink-text'>{</span> <strong>developer</strong><span class='pink-text'> }</span> based in pune ", 
-    "currently pursuing my bachelor's in computer-science",
-    "@ vishwakarma institute of technology"
+    "👩‍💻 21 year old <span class='pink-text'>{</span> <strong>developer</strong><span class='pink-text'> }</span> based in pune", 
+    "💻 currently pursuing my bachelor's in computer-science",
+    "🎓 @ vishwakarma institute of technology"
 
     );
     var iSpeed = 50; // time delay of print out

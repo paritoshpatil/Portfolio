@@ -3,6 +3,10 @@ body{
     position: relative;
 }
 
+h1 h2 h3 h4 h5 h6 p {
+    color: #2E2836;
+}
+
 h1{
     font-size: 7rem;
 }
@@ -64,11 +68,12 @@ h5 {
 }
 
 .header-text .container-fluid{
-    text-align: right;
+    text-align: left;
 }
 
 .header-img{
-    width: 80%;
+    width: 100%;
+    text-align: right;
 }
 
 #projects-section{
@@ -84,6 +89,7 @@ h5 {
     padding: 1rem;
     margin: 1.5rem;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 .card-title{
@@ -92,4 +98,13 @@ h5 {
 
 .card-text{
     font-size: 1.2rem;
+}
+
+.badge {
+    background-color: #FF3D6C;
+    font-family: monospace;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 3px 2px;
+    padding: 6px;
 }
