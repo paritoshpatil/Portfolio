@@ -1,0 +1,95 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+h1{
+    font-size: 7rem;
+}
+
+h2{
+    font-size: 5em;
+}
+
+
+h5 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Fira Mono', monospace;
+}
+
+.pink-text{
+    color: #FF3D6C;
+    font-weight: 700;
+}
+.navbar{
+    padding: 1vh 10%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-brand{
+    width: 7%;
+    cursor: pointer;
+    transition: fill 0.2s ease-in-out;
+}
+
+.navbar-brand:hover{
+    fill: #FF3D6C;
+}
+
+.navbar-nav{
+    float: right;
+    margin-left: auto;
+}
+
+.nav-item{
+    margin: 0 2rem;
+    font-size: 1.2rem;
+}
+
+.navbar .nav-item .nav-link:hover{
+    color: #FF3D6C;
+}
+
+#header-section{
+    padding: 20vh 10%;
+}
+
+.header-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text .container-fluid{
+    text-align: right;
+}
+
+.header-img{
+    width: 80%;
+}
+
+#projects-section{
+    padding: 10vh 10%;
+    text-align: center;
+}
+
+/* .cards{
+    text-align: center;
+} */
+
+.card{
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: 1rem;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    font-size: 1.2rem;
+}
