@@ -14,7 +14,7 @@
 		/>
 
 		<!-- Scroll Animations -->
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
 		<!-- Bootstrap CSS -->
 		<!-- <link
@@ -111,6 +111,9 @@
 							<a class="nav-link" href="#projects-section">Projects</a>
 						</li>
 						<li class="nav-item">
+							<a class="nav-link" href="#community-section">Community</a>
+						</li>
+						<li class="nav-item">
 							<a class="nav-link" href="#">Contact</a>
 						</li>
 					</ul>
@@ -120,7 +123,11 @@
 
 		<section id="header-section">
 			<div class="row">
-				<div class="container col-md-6 col-sm-12 header-img" data-aos="zoom-in" data-aos-duration="1000">
+				<div
+					class="container col-md-6 col-sm-12 header-img"
+					data-aos="zoom-in"
+					data-aos-duration="1000"
+				>
 					<img src="./images/creativity-animate.svg" alt="" />
 				</div>
 
@@ -133,7 +140,7 @@
 							currently pursuing my bachelor's in computer-science <br />
 							@ vishwakarma institute of technology
                         </h5> -->
-						<h5 id="typedtext"></h5>
+						<h6 id="typedtext"></h6>
 					</div>
 				</div>
 			</div>
@@ -145,7 +152,7 @@
 				<span class="pink-text">}</span>
 			</h2>
 
-			<br /><br /><br /><br />
+			<br /><br />
 
 			<div class="container-fluid">
 				<div class="card-deck">
@@ -154,21 +161,20 @@
 						target="_blank"
 						class="card text-center"
 						data-aos="fade-up"
-						data-aos-duration="800"
+						data-aos-duration="500"
 					>
 						<img src="./images/Fugitive 3.svg" alt="" class="card-img-top" />
 						<div class="card-body">
-							<h3 class="card-title">
-								<span class="pink-text"
-									><strong>Fugitive Detection System</strong></span
-								>
-							</h3>
+							<h4 class="card-title">
+								Fugitive Detection System
+							</h4>
 							<p class="card-text">
 								A python based Facial Recognition system using DLib Deep
 								Learning libraries used to detect fugitives and criminals in
 								public spaces that are under CCTV surveillance.
 							</p>
 							<br />
+
 							<span class="badge badge-danger">face-recognition</span>
 							<span class="badge badge-danger">machine-learning</span>
 							<span class="badge badge-danger">image-processing</span>
@@ -181,14 +187,13 @@
 						target="_blank"
 						class="card text-center"
 						data-aos="fade-up"
-						data-aos-offset="300"
 						data-aos-duration="1000"
 					>
 						<img src="./images/Port Blair VR.svg" alt="" class="card-img-top" />
 						<div class="card-body">
-							<h3 class="card-title">
-								<span class="pink-text"><strong>Port Blair VR</strong></span>
-							</h3>
+							<h4 class="card-title">
+								Port Blair VR
+							</h4>
 							<p class="card-text">
 								A Virtual-Reality Experience for the Heritage Museums of Andaman
 								and Nicobar Islands. Developed at Smart India Hackathon 2019,
@@ -209,16 +214,13 @@
 						target="_blank"
 						class="card text-center"
 						data-aos="fade-up"
-						data-aos-offset="600"
-						data-aos-duration="1000"
+						data-aos-duration="1200"
 					>
 						<img src="./images/Pair Trading.svg" alt="" class="card-img-top" />
 						<div class="card-body">
-							<h3 class="card-title">
-								<span class="pink-text"
-									><strong>Pair-Trading w Python</strong></span
-								>
-							</h3>
+							<h4 class="card-title">
+								Pair-Trading w Python
+							</h4>
 							<p class="card-text">
 								An IEEE paper on the design of a pipeline-based ML framework to
 								implement the Pair-Trading algorithm for stock trading.
@@ -235,6 +237,44 @@
 					</a>
 				</div>
 			</div>
+		</section>
+
+		<section id="community-section">
+			<h2>
+				<span class="pink-text">{</span> <strong> Community </strong>
+				<span class="pink-text">}</span>
+			</h2>
+
+			<br /><br /><br /><br />
+
+			<div class="container-fluid">
+				<div class="card-deck">
+					<div class="card w-50">
+						<div class="card-body">
+							<h3 class="card-title">Management Co-Ordinator - DSC VIT Pune</h3>
+							<p class="card-text">
+								Management Co-ordinator and Multimedia Team Leader at Developer Student Club VIT Pune, 
+								a tech-club powered by Google Developers. Led a team of 2 designers and worked on various
+								posters, social media posts and promo-videos along with event organization
+							</p>
+							<a href="#" class="btn btn-outline-danger">Crescendo 2020</a>
+						</div>
+					</div>
+
+					<div class="card w-50">
+						<div class="card-body">
+							<h3 class="card-title">Editor - Pi Hindi Section</h3>
+							<p class="card-text">
+								Editor for the Hindi Section of the official college magazine - Crescendo at VIT, Pune &
+								Led a team of 6 writers to compile and design a 250 page magazine
+							</p>
+							<a href="#" class="btn btn-outline-danger">Crescendo 2020</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
 		</section>
 
 		<!-- Optional JavaScript -->
@@ -258,7 +298,7 @@
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script>
 			AOS.init();
-		  </script>
+		</script>
 
 		<script src="./script.js"></script>
 	</body>
