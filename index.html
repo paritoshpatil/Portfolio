@@ -13,6 +13,9 @@
 			rel="stylesheet"
 		/>
 
+		<!-- Scroll Animations -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 		<!-- Bootstrap CSS -->
 		<!-- <link
 			rel="stylesheet"
@@ -27,9 +30,14 @@
 		<link rel="icon" href="./images/favicon.ico" />
 		<title>Pari</title>
 	</head>
-	<body data-gr-c-s-loaded="true" data-spy="scroll" data-target="#navbar-section" data-offset="50">
+	<body
+		data-gr-c-s-loaded="true"
+		data-spy="scroll"
+		data-target="#navbar-section"
+		data-offset="50"
+	>
 		<section id="navbar-section">
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 				<svg
 					version="1.1"
 					id="Layer_1"
@@ -112,11 +120,8 @@
 
 		<section id="header-section">
 			<div class="row">
-				<div class="container col-md-6 col-sm-12 header-img">
-					<img
-						src="./images/Mobile Marketing lm.gif"
-						alt=""
-					/>
+				<div class="container col-md-6 col-sm-12 header-img" data-aos="zoom-in" data-aos-duration="1000">
+					<img src="./images/creativity-animate.svg" alt="" />
 				</div>
 
 				<div class="header-text col-md-6 col-sm-12">
@@ -143,57 +148,92 @@
 			<br /><br /><br /><br />
 
 			<div class="container-fluid">
-					<div class="card-deck">
-						<div class="card text-left">
-							<img src="./images/placeholder 1.jpg" alt="" class="card-img-top"/>
-							<div class="card-body">
-								<h3 class="card-title">
-									<span class="pink-text"
-										><strong>Fugitive Detection System</strong></span
-									>
-								</h3>
-								<p class="card-text">
-									A python based Facial Recognition system using DLib Deep Learning libraries
-									used to detect fugitives and criminals in public spaces that are under
-									CCTV surveillance. 
-								</p> <br>
-								<span class="badge badge-danger">face-recognition</span>
-								<span class="badge badge-danger">machine-learning</span>
-								<span class="badge badge-danger">image-processing</span>
-								<span class="badge badge-danger">python</span>
-								<span class="badge badge-danger">sqlite</span>
-							</div>
+				<div class="card-deck">
+					<a
+						href="https://github.com/paritoshpatil/fugitive-detection"
+						target="_blank"
+						class="card text-center"
+						data-aos="fade-up"
+						data-aos-duration="800"
+					>
+						<img src="./images/placeholder 3.jpg" alt="" class="card-img-top" />
+						<div class="card-body">
+							<h3 class="card-title">
+								<span class="pink-text"
+									><strong>Fugitive Detection System</strong></span
+								>
+							</h3>
+							<p class="card-text">
+								A python based Facial Recognition system using DLib Deep
+								Learning libraries used to detect fugitives and criminals in
+								public spaces that are under CCTV surveillance.
+							</p>
+							<br />
+							<span class="badge badge-danger">face-recognition</span>
+							<span class="badge badge-danger">machine-learning</span>
+							<span class="badge badge-danger">image-processing</span>
+							<span class="badge badge-danger">python</span>
+							<span class="badge badge-danger">sqlite</span>
 						</div>
-						<div class="card text-left">
-							<img src="./images/placeholder 3.jpg" alt="" class="card-img-top"/>
-							<div class="card-body">
-								<h3 class="card-title">
-									<span class="pink-text"><strong>Port Blair VR</strong></span>
-								</h3>
-								<p class="card-text">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-									nesciunt molestiae, quae cumque repellat dolore vero deserunt
-									sapiente modi ea quam reiciendis.
-								</p>
-							</div>
+					</a>
+					<a
+						href="https://docs.google.com/presentation/d/e/2PACX-1vQ8psE8Ibm7BOoJy8YfVxexI636yw_T6NZ6KVAMgJwtso-eDsfMGB32Ll3_ZFM6DRW92BtKSlz4dVER/pub?start=false&loop=false&delayms=3000"
+						target="_blank"
+						class="card text-center"
+						data-aos="fade-up"
+						data-aos-offset="300"
+						data-aos-duration="1000"
+					>
+						<img src="./images/placeholder 1.jpg" alt="" class="card-img-top" />
+						<div class="card-body">
+							<h3 class="card-title">
+								<span class="pink-text"><strong>Port Blair VR</strong></span>
+							</h3>
+							<p class="card-text">
+								A Virtual-Reality Experience for the Heritage Museums of Andaman
+								and Nicobar Islands. Developed at Smart India Hackathon 2019,
+								secured 8th rank in VIT among 180+ teams.
+							</p>
+							<br />
+							<span class="badge badge-danger">virtual-reality</span>
+							<span class="badge badge-danger">3D-modelling</span>
+							<span class="badge badge-danger">unity engine</span>
+							<span class="badge badge-danger">blender</span>
+							<span class="badge badge-danger">FL Studio</span>
+							<span class="badge badge-danger">Hackathon</span>
 						</div>
+					</a>
 
-						<div class="card text-left">
-							<img src="./images/placeholder 2.jpg" alt="" class="card-img-top"/>
-							<div class="card-body">
-								<h3 class="card-title">
-									<span class="pink-text"
-										><strong>Pair-Trading w Python</strong></span
-									>
-								</h3>
-								<p class="card-text">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-									nesciunt molestiae, quae cumque repellat dolore vero deserunt
-									sapiente modi ea quam reiciendis.
-								</p 
-							</div>
+					<a
+						href="https://docs.google.com/document/d/1fagC5aaZXEEpbnLKYbUMgSYNmFMemg9RX5pjJuNxZKM/edit?usp=sharing"
+						target="_blank"
+						class="card text-center"
+						data-aos="fade-up"
+						data-aos-offset="600"
+						data-aos-duration="1000"
+					>
+						<img src="./images/placeholder 2.jpg" alt="" class="card-img-top" />
+						<div class="card-body">
+							<h3 class="card-title">
+								<span class="pink-text"
+									><strong>Pair-Trading w Python</strong></span
+								>
+							</h3>
+							<p class="card-text">
+								An IEEE paper on the design of a pipeline-based ML framework to
+								implement the Pair-Trading algorithm for stock trading.
+								Published at ICIRCA-20, included in IEEE digital library.
+							</p>
+							<br />
+							<span class="badge badge-danger">pair-trading</span>
+							<span class="badge badge-danger">machine-learning</span>
+							<span class="badge badge-danger">IEEE</span>
+							<span class="badge badge-danger">python</span>
+							<span class="badge badge-danger">financial analysis</span>
+							<span class="badge badge-danger">quantopian</span>
 						</div>
-					</div>
+					</a>
+				</div>
 			</div>
 		</section>
 
@@ -214,6 +254,11 @@
 			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
 			crossorigin="anonymous"
 		></script>
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		  </script>
 
 		<script src="./script.js"></script>
 	</body>

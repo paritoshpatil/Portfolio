@@ -1,8 +1,10 @@
 // set up text to print, each item in array is new line
 var aText = new Array(
-    "👩‍💻 21 year old <span class='pink-text'>{</span> <strong>developer</strong><span class='pink-text'> }</span> based in pune", 
-    "💻 currently pursuing my bachelor's in computer-science",
-    "🎓 @ vishwakarma institute of technology"
+    "🙋‍♂️ 21 year old <span class='pink-text'>{</span> <strong>developer</strong><span class='pink-text'> }</span> based in pune", 
+    "💻 pursuing my bachelor's in computer-science",
+    "🎓 @ vishwakarma institute of technology",
+    "💪 currently interning for <span class='pink-text'>{</span> <strong>TomTom</strong><span class='pink-text'> }</span>",
+    "🔥 set to join <span class='pink-text'>{</span> <strong>Veritas</strong><span class='pink-text'> }</span> in summer 2021"
 
     );
     var iSpeed = 50; // time delay of print out
@@ -35,6 +37,5 @@ var aText = new Array(
       setTimeout("typewriter()", iSpeed);
      }
     }
-    
     
     typewriter();
