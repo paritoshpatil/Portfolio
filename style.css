@@ -19,8 +19,13 @@
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
 	position: relative;
+}
+
+strong{
+	font-weight: 600;
 }
 
 h1,
@@ -140,7 +145,7 @@ h2 {
 
 .card-text {
 	text-align: justify;
-	padding: 0 1.25rem;
+	margin: 1rem 2rem;
 }
 
 .badge {
@@ -165,13 +170,15 @@ h2 {
 	border-color: #1dd3bd;
 	color: #1dd3bd;
 	margin: 5px;
+	outline-color: #1dd3bd;
 }
 
 .btn-outline-danger:hover,
 .btn-outline-danger:active {
 	background-color: #1dd3bd;
+	border-color: #1dd3bd;
 }
 
-#footer{
+#footer {
 	text-align: center;
 }
