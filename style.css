@@ -179,6 +179,21 @@ h2 {
 	border-color: #1dd3bd;
 }
 
+#education-section{
+	padding: 10vh 10%;
+	text-align: center;
+}
+
+.progress{
+	width: 90%;
+	float: left;
+}
+
+.progress-text{
+	float: right;
+}
+
 #footer {
 	text-align: center;
 }
+
