@@ -116,6 +116,10 @@ h2 {
 	width: 80%;
 }
 
+#typedtext {
+	line-height: 1.5;
+}
+
 #projects-section {
 	padding: 10vh 10%;
 	text-align: center;
@@ -191,6 +195,11 @@ h2 {
 
 .progress-text{
 	float: right;
+}
+
+#hobbies-section {
+	padding: 10vh 10%;
+	text-align: center;
 }
 
 #footer {
