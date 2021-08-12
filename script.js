@@ -4,7 +4,7 @@ var aText = new Array(
 	"💻 pursuing my bachelor's in computer-science",
 	'🎓 @ vishwakarma institute of technology',
 	"💪 Ex <span class='pink-text'>{</span> <strong class='dark-text'>TomTom</strong><span class='pink-text'> }</span> Intern",
-	"🔥 Currently Interning @ <span class='pink-text'>{</span> <strong class='dark-text'>Veritas</strong><span class='pink-text'> }</span>"
+	"🔥 Currently Working @ <span class='pink-text'>{</span> <strong class='dark-text'>Veritas</strong><span class='pink-text'> }</span>"
 );
 var iSpeed = 20; // time delay of print out
 var iIndex = 0; // start printing array at this posision
